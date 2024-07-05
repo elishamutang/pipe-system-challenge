@@ -2,7 +2,7 @@
     "name": "new-app",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
+    "main": "./src/connectedSinks.js",
     "scripts": {
         "build": "webpack --config webpack.prod.js",
         "start": "webpack serve --open --config webpack.dev.js",
@@ -33,6 +33,7 @@
     "dependencies": {
         "boxicons": "^2.1.4",
         "date-fns": "^3.3.1",
+        "nodemon": "^3.1.4",
         "rcolor": "^2.0.2"
     }
 }
